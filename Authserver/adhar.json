@@ -1,0 +1,46 @@
+[
+    {
+        "model": "polls.adharcard",
+        "pk": "123456789101",
+        "fields": {
+            "rand": "dZlm9Lsu13h69XiUORmi",
+            "name": "Lohith N",
+            "address": "surathkal nitk manglore",
+            "phone_number": "1234567891",
+            "dob": "1999-02-01"
+        }
+    },
+    {
+        "model": "polls.adharcard",
+        "pk": "137739192739",
+        "fields": {
+            "rand": "vagMO4Yl4Br5UCoGjLqm",
+            "name": "agvfajhsda",
+            "address": "ashjdhbskjdba",
+            "phone_number": "2351735175",
+            "dob": "1991-12-04"
+        }
+    },
+    {
+        "model": "polls.adharcard",
+        "pk": "192543628201",
+        "fields": {
+            "rand": "vagMO4Yl4Br5UCoGjLqm",
+            "name": "abc",
+            "address": "abcd",
+            "phone_number": "5364382681",
+            "dob": "2002-11-01"
+        }
+    },
+    {
+        "model": "polls.adharcard",
+        "pk": "452734527342",
+        "fields": {
+            "rand": "vagMO4Yl4Br5UCoGjLqm",
+            "name": "dagsdjhasgda",
+            "address": "ashdajhdgshdkjq adsahgjhdb",
+            "phone_number": "3265633781",
+            "dob": "1991-03-15"
+        }
+    }
+]

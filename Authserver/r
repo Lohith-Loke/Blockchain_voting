@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ $@ == 3 ]
+then
+    py manage.py createsuperuser 
+fi
+
+if [ $@ == 1  ]
+then
+    py manage.py makemigrations polls
+    py manage.py migrate
+else
+    py manage.py runserver 8000
+fi

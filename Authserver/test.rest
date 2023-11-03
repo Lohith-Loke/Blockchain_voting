@@ -1,0 +1,13 @@
+POST http://127.0.0.1:8000/post/ HTTP/1.1
+Content-Type: application/json
+
+{
+"name":"Lohith N",
+"adhar_number":"123456789101",
+"dob":"1999-02-01",
+"phone_number":"1234567891"
+}
+
+####
+GET http://127.0.0.1:8000/ HTTP/1.1
+
