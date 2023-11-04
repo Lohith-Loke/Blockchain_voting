@@ -170,3 +170,4 @@ Auth/__pycache__/*
 polls/migrations/__pycache__/*
 Auth/__pycache__/*
 .vscode/settings.json
+*.json
