@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import math
 import random
 import requests
@@ -130,7 +132,6 @@ def get_ballot(data:dict):
                 # candidates[list_of_candidates[idx]['name']]+=1
                 # break
         
-        print(candidates)
 
         r=requests.post('http://127.0.0.1:8080/vote/',json={"vote":ms_c,"salt":salt,"sign":sign_ms_c}) 
         
@@ -147,7 +148,7 @@ def get_ballot(data:dict):
     
     # send m_hash to be signed by votebank server 
 if __name__=="__main__":
-    idx=3
+    idx=0
     resp=getsigns(idx)
     print(resp)
     json.dump(resp,fp=open(file=".auth.json",mode="w",encoding="utf-8"))

@@ -23,5 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("", views.all_votes,name="votes pool"),
     path('vote/', views.verify_vote,name="votes pool"),
-
+    path("getvotes/", views.all_votes,name="All pool"),
+    path('blocks/', views.post_blocks ,name="blocks"),
+    path('getblocks/', views.get_blocks,name="blocks"),   
 ]
